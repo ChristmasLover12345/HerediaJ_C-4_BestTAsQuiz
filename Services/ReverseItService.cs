@@ -7,9 +7,8 @@ namespace HerediaJ_C_4_BestTAsQuiz.Services
 {
     public class ReverseItService
     {
-        public class ReverseItAlphaService
-    {
-         public string ReverseAlpha(string word)
+    
+         public string ReverseWord(string word)
         {
 
             if (word.Trim() == "")
@@ -25,6 +24,6 @@ namespace HerediaJ_C_4_BestTAsQuiz.Services
             }
         }
         
-    }
+    
     }
 }

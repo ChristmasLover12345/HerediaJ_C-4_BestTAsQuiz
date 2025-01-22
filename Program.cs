@@ -5,6 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddScoped<AddTwoNumbersService>();
 builder.Services.AddScoped<ReverseItService>();
+builder.Services.AddScoped<SayHelloService>();
+builder.Services.AddScoped<SayHelloTwoService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
